@@ -11,7 +11,7 @@ public class StringReversal {
 
     }
     // Yha kya ho rha hai.
-
+    // Nothing is new in this so everyone can leanrn it.
     static String reverseString(String str){
         if(str.equals(""))return "";
        return reverseString(str.substring(1))+str.charAt(0);

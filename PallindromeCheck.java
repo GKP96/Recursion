@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class PallindromeCheck {
     public static void main(String[] args) {
+        // 
+        int gau=5;
+        System.out.println(gau);
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
         if(isPalindrome(str)){
